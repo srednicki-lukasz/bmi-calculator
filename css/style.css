@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 html, body {
     height: 100%;
     width: 100%;
-    user-select: none;
+    overflow: hidden;
+}
+
+.flex-even {
+    flex: 1;
+}
+
+.result {
+    align-items: safe center;
+    justify-content: safe center;
+    font-size: 10em;
 }
